@@ -1,0 +1,128 @@
+#main-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+}
+
+#main-items .left-items .left-items-buttons button{
+   border-radius: 2rem;
+   width: 7rem;
+   height: 3rem;
+   background-color: white;
+   border: 1px solid rgb(158, 155, 155);
+}
+/* #main-items .left-items .left-items-buttons button:hover{
+    background-color: rgb(47, 128, 79);
+    color: white;
+} */
+#main-items .left-items .left-items-buttons .log-in{
+    background-color: rgb(47, 128, 79);
+    color: white;
+}
+
+#main-items .left-items .left-items-buttons .sign-up{
+    margin-left: 2rem;
+}
+
+/* Adding CSS to Form tag */
+.left-items-form .form-items{
+    display: flex;
+    
+}
+.left-items-form .form-left{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+
+.left-items-form .form-right{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    margin-left: 2rem;
+}
+
+.left-items-form .form-items input,select{
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(158, 155, 155);
+}
+
+.left-items-form .form-items input[placeholder]{
+     padding: 0rem 2rem;
+}
+
+.left-items-form .form-items select{
+    color: rgb(158, 155, 155);
+    padding: 0rem 2rem;
+    
+}
+
+/* Styling Payment and Deliver Buttons */
+.mid-items button{
+    background-color: white;
+    border: 1px solid rgb(158, 155, 155);
+    margin-top: 8px;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+}
+
+.mid-items .payment-buttons button{
+    width: 7rem;
+    height: 3rem;
+}
+
+.mid-items .delivery-buttons button{
+    width: 11rem;
+    height: 3.5rem;
+}
+.mid-items .delivery-buttons button div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+}
+
+/* Adding styling to the Left-part of the Main tag */
+
+#right-side-items .item-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5rem;
+    margin-top: 0.5px;
+}
+
+#right-side-items .item-details .item-image{
+    border-radius: 50%;
+}
+
+#right-side-items div button{
+    width: 85%;
+    height: 3rem;
+    border-radius: 1.5rem;
+    margin: 0rem 1rem;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 0rem 2.5rem;
+}
+.item-code{
+    color: rgb(103, 102, 102);
+}
+
+#right-side-items .bottom-right{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;   
+}
+
+#right-side-items .bottom-right p{
+    margin-left: 2rem;
+    color: rgb(91, 90, 90);
+    
+}
+#right-side-items .bottom-right p span{
+    color: black;
+}

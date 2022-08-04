@@ -1,0 +1,39 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-logo{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+.nav-logo p{
+    padding-left: 1rem;
+}
+.nav-logo p span{
+    color: orangered;
+}
+
+.nav-center ul{
+    list-style: none;
+    display: flex;
+}
+.nav-center ul li{
+    padding-right: 4rem;
+}
+
+.nav-corner-logos ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-corner-logos ul li{
+    padding-right: 3rem;
+}
+

@@ -1,0 +1,23 @@
+import React from "react"
+import './Text.css'
+import {MdOutlineShoppingCart} from 'react-icons/md'
+import {RiTruckLine} from 'react-icons/ri'
+
+export default function Text(){
+
+    return(
+        <section id ="text-items">
+            <div className="text">
+                <p>Shipping and Payment</p>
+            </div>
+            <div className="text-icons">
+                
+                    <RiTruckLine size = {32} className="icon" id = "icon-2" /> 
+                    <div className="hr-line"></div>
+                    <MdOutlineShoppingCart className="icon"  size={32}/>
+                  
+            </div>  
+                
+        </section>
+    )
+}

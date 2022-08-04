@@ -1,0 +1,31 @@
+#bottom-bar{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin:0 2rem;
+}
+
+#bottom-bar .back-click{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#bottom-bar .back-click p{
+    margin-left: 1rem;
+}
+
+#bottom-bar .payment-buttons{
+    
+}
+#bottom-bar .payment-buttons button{
+    margin-right: 1rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(181, 178, 178);
+    background-color: white;
+}
+#bottom-bar .payment-buttons button:last-child{
+    background-color: rgb(47, 128, 79);
+    color: white;
+}

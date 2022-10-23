@@ -5,6 +5,7 @@ import { FaSearch } from 'react-icons/fa';
 import {MdOutlineShoppingCart} from 'react-icons/md'
 import {VscAccount} from 'react-icons/vsc'
 
+
 export default function Nav(){
 
     return(

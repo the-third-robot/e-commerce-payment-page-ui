@@ -2,6 +2,7 @@ import React from "react"
 import './ButtonBar.css'
 import {BiArrowBack} from 'react-icons/bi'
 
+
 export default function ButtonBar (){
 
     return (
@@ -10,6 +11,7 @@ export default function ButtonBar (){
                 <BiArrowBack />
                 <p>Back</p>
             </div>
+            
             <div className="payment-buttons">
                 <button>CONTINUE SHOPPING</button>
                 <button>PROCEED TO PAYMENT</button>

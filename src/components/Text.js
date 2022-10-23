@@ -2,6 +2,7 @@ import React from "react"
 import './Text.css'
 import {MdOutlineShoppingCart} from 'react-icons/md'
 import {RiTruckLine} from 'react-icons/ri'
+import {MdHorizontalRule} from 'react-icons/md'
 
 export default function Text(){
 
@@ -11,11 +12,8 @@ export default function Text(){
                 <p>Shipping and Payment</p>
             </div>
             <div className="text-icons">
-                
-                    <RiTruckLine size = {32} className="icon" id = "icon-2" /> 
-                    <div className="hr-line"></div>
-                    <MdOutlineShoppingCart className="icon"  size={32}/>
-                  
+                <RiTruckLine size = {18}  id = "icon-1" /> 
+                <MdOutlineShoppingCart className="icon"  size={18}/>
             </div>  
                 
         </section>
